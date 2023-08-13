@@ -374,6 +374,9 @@ button:hover{
         font-size: 20px;
         text-align: center;
     }
+    .right{
+        margin-top: 5vh;
+    }
     .container{
         width: 100vw;
     }
@@ -432,5 +435,8 @@ button:hover{
    }
    .netProfit h2 {
     text-align:center;
+   }
+   .bill label{
+    display: none;
    }
 }
