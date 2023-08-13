@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illinois Net Metering</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+   
+    <div class="part1">
+        <div class="left">
+          <img class="logoPart1" src="images/logo.JPG" alt="logo">
+            <h1 class="text1 intro" >Need to Lower Your Utility Bills?</h1>
+            <h1 class="text2 intro">We Got You</h1>
+            <h1 class="text3 intro">The net metering program saves those who qualify 40-50% a year on their electric bill</h1>
+            <a href="#portal" class="leadToPortal">Submit My Bill</a>
+        </div>
+        <div class="right">
+            <div class="roof offer">
+                <img class="circleImage" src="images/roof.png">
+                <p class="subtitle">Roofing</p>
+            </div>
+            <div class="HVAC offer">
+                <img class="circleImage" src="images/HVAC.png">
+                <p class="subtitle">HVAC</p>
+            </div>
+            <div class="Windows offer">
+                <img class="circleImage" src="images/windows.png">
+                <p class="subtitle">Windows</p>
+            </div>
+            <div class="Solar offer">
+                <img class="circleImage" src="images/Solar.png">
+                <p class="subtitle">Solar</p>
+            </div>
+        </div>
+    </div>
+    <div id="portal" class="part2">
+        <div class="container">
+            
+          <div class="form">
+            <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+              <input type="hidden" name="access_key" value="6f38b2ab-f1ec-45a7-9acf-fc7f4148d301">
+            <div class="BillHeading">
+              <h1 class="BillTitle">
+                Upload My Electric Bill
+              </h1>
+              <p class="BillTitleSub">
+                Please upload your bill and confirm your Identity.
+              </p>
+            </div>
+            <div class="mobileChange">
+            <div class="writtenInfo">
+                  <div class="inputs-container">
+                    <div class="input-wrapper">
+                      <label for="fname" >First Name</label>
+                      <input type="text" name="name" id="fname" placeholder="John"  />
+                    </div>
+                    <div class="input-wrapper">
+                      <label for="lname" >Last Name</label>
+                      <input type="text" name="last_name" id="lname" placeholder="Doe" />
+                    </div>
+                    <div class="input-wrapper">
+                      <label for="number">Birthdate</label>
+                      <input type="text" name="number" id="number" placeholder="MM/DD/YYYY"  />
+                    </div>
+                  </div>
+                  </div>
+              <div class="mobileChange2">
+                  <div class="bill">
+                    <label for="attachment" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Upload File (.jpg, .png, or .pdf)</label>
+                    <input type="file" id="attachment" name="attachment" accept="image/jpeg,image/png,application/pdf" required />
+                  </div>
+                  
+                <div class="submitBill">
+                  <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                   Submit My Bill
+                  </button>
+                </div>
+                <input type="hidden" name="redirect" value="https://piercem18.github.io/solarredirect/">
+                  </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+    </div>
+    <div class="part3and4">
+    <h1 class="part3Title">Learn More About Our Solar Program</h1>
+    <div class="part3">
+    <div class="part3left">
+        <img class="solarPanel" src="images/solarheader.jpeg" alt="solar panel">
+    </div>
+    <div class="part3right">
+        <div class="netProfit">
+            <h2>Net Profit Over 10 Years</h2>
+            <div class="statsAndNumbers">
+                <p class="stat1 stat">Power Generated in 10 years</p>
+                <p class="number1 number">$52,827</p>
+                <p class="stat2 stat">Increased Home Value</p>
+                <p class="number2 number">$95,492</p>
+                <p class="stat3 stat">Profit</p>
+                <p class="number3 number">$20,744</p>
+            </div>
+        </div>
+        <div class="pocketAndSavings">
+            <div class="pocket">
+                <h2>$0 down $0 out of pocket</h2>
+                <p>install covered by company</p>
+            </div>
+            <div class="avgSavings">
+                <h2>$2,076</h2>
+                <p>You save on average per year</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="part4">
+      <div class="whyUs">
+        <h2>Why the Net Metering Program?</h2>
+        <p>The net metering program is a vendor that works with multiple companies in the home efficiency space. This allows us to work for the consumer and select the company that best fits the consumer's needs on a project-to-project basis</p>
+      <div class="reasons">
+        <div class="experience reason">
+          <h3>Experience</h3>
+          <div class="logoandp">
+          <img src="images/Staff.png" class="icon" alt="staff logo">
+          <p>Our solar team has the credentials, certifications, and experience to provide the best end result and smooth process possible.</p>
+          </div>
+        </div>
+        <div class="Warranty reason">
+          <h3>Full Warranty</h3>
+          <div class="logoandp">
+          <img src="images/warranty.png" class="icon" alt="warranty logo">
+          <p>All work and services, products, and materials come with our warranty and the manufacturer's warranty!</p>
+          </div>
+        </div>
+        <div class="Financing reason">
+          <h3>Easy Financing</h3>
+          <div class="logoandp">
+          <img src="images/finance.png" class="icon" alt="finance logo">
+          <p>We have already done the work, partnering with financial institutions offering a wide range of options to fit your monthly budget.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="partnerLogos">
+        <img src="images/nationalLogo.png" class="nationalLogo partnerLogos" alt="National Solar Logo">
+        <img src="images/sunrunLogo.png" class="sunrunLogo partnerLogos" alt="Sun Run Logo">
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="part5">
+      <h2 class="testimonialHeader">Testimonials</h2>
+        <div class="testimonials">
+          <div class="testimonial1">
+            <img class="quotes" src="images/quotes.png">
+            <p class="testimonial1p"> I was very hesitant at first to switch to solar. But I’m glad I did. National solar had my system set up and running in no time. Our electric bill has decreased significantly since going solar. Couldn’t be more happy with our new system. They walked us through the entire process and answered all my questions. Thank you!
+            <p class="quotee">- Antonio Carrion</p>
+          </div>
+          <div class="testimonial2">
+            <img class="quotes" src="images/quotes.png">
+            <p class="testimonial2p"> I recently had the pleasure of working with National Solar for the installation of solar panels on my property, and I cannot express how impressed I am with their service and expertise. From start to finish, their team displayed professionalism, efficiency, and an unwavering commitment to customer satisfaction.
+            </p>
+            <p class="quotee">- Zach Heagy</p>
+          </div>
+          <div class="testimonial3">
+            <img class="quotes" src="images/quotes.png">
+            <p class="testimonial3p"> The team demonstrated professionalism and knowledge throughout the process, providing guidance and answering my questions patiently. The installation itself was done well, with attention to detail and efficiency. They left the site clean after completing the work. The customer service was decent, with timely communication and assistance when needed. Since the installation, I have noticed a decrease in my electricity bills, which is a positive outcome.
+            </p>
+            <p class="quotee">- Nick Grubb</p>
+          </div>
+        </div>
+    
+      <h2 class="latestNewsHeader">Latest News</h2>
+      <div class="latestNewsLinks">
+        <a href="https://www.sj-r.com/story/news/politics/state/2023/02/06/ameren-illinois-files-for-electric-and-gas-rate-increases/69862558007/">Ameren Illinois cites clean energy act, COVID-19, war for electric, gas rate hike request</a>
+        <a href="https://news.wttw.com/2023/01/18/illinois-utilities-seek-increase-rates-across-state">Illinois Utilities Seek to Increase Rates Across the State</a>
+        <a href="https://www.usatoday.com/story/money/personalfinance/2023/01/24/electricity-prices-inflation/11089430002/">Electricity bills may continue to shock you even as overall inflation eases.</a>
+        <a href="https://fox2now.com/news/illinois/ameren-illinois-prices-up-126-compared-to-last-year/">Ameren Illinois’ prices up 126% compared to last year. Find out why</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Contact Us</p>
+      <p>(309) 305-9298</p>
+    </div>
+</body>
+</html>

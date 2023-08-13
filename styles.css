@@ -1,0 +1,436 @@
+html{
+    scroll-behavior: smooth;
+  }
+.part1{
+    background-image:url(images/part2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.part1, .left, .right{
+    display: flex;
+    flex-direction: column;
+}
+.left, .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right, .intro{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw; /* Add gap between images */
+    height: 40vh;
+    width: 100vw;
+}
+.logoPart1{
+    height:150px;
+    width: 300px;
+border-radius: 30px;
+}
+.left{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.right img {
+    width: 10vw; 
+    height: 10vh;
+   
+    border-radius:30px;
+}
+.offer,.circleImage, .subtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-size: 20px;
+
+}
+.text1{
+    font-size: 70px;
+}
+.text2{
+    font-size:50px;
+    color:rgb(34, 128, 204);
+}
+.text3{
+    font-size: 30px;
+}
+.leadToPortal{
+    background-color:white;
+    border: 10px black;
+    font-size: large;
+    padding:20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(21, 79, 126);
+    font-size:35px;
+    margin-top: 4vh;
+}
+.part2{
+    background-image: url(images/part1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.container,.transparent{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+
+}
+.container{
+    padding-bottom: 4vh;
+    padding-top: 3vh;
+    position: relative;
+}
+.form{
+   background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    height:45vh;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+::placeholder{
+  font-size: 20px;
+}
+input{
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 17px;
+  
+}
+label{
+    border:gray 300px;
+    border-radius: 10px; 
+    
+}
+.writtenInfo, label{
+    display: flex;
+padding-top: 10px;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+.inputs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-wrapper {
+    flex: 1;
+    margin-right: 10px; 
+  }
+  .inputs-container >input{
+    color: grey;
+    border-radius: 10px;
+    height: 5vh;
+  }
+ 
+  
+
+
+.billHeading, .BillTitle, .BillTitleSub{
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    font-size: 20px;;
+}
+#attachment{
+    font-size: 18px;
+}
+.BillTitleSub{
+    color:grey;
+    font-size: 25px ;
+}
+.bill{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+button{
+   
+    color:white;
+    background-color:#2C365E;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 5vh;
+    width: 40vw;
+    font-size: 20px;
+}
+button:hover{
+  height:7vh;
+  width:45vw;
+}
+.submitBill{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.solarPanel{
+    width: 40vw;
+    height:60vh;
+    border-radius: 20px;
+    margin-right:2vw;
+}
+.part3, .part3left, .part3right{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.part3Title{
+    justify-content: center;
+    display: flex;
+    padding-top: 3vh;
+}
+.part3{
+    margin-top:4vh;
+    font-size: 20px;
+}
+.part3right, .netProfit{
+    display: flex;
+    flex-direction: column;
+}
+.pocketAndSavings{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+
+.statsAndNumbers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(3, 1fr);    /* 3 rows */
+    gap:50px;
+}
+.pocket > h2,p{
+    display: flex;
+    align-items: center;
+}
+.pocket{
+    border: 10px  rgb(167, 255, 167) solid;
+    opacity: .7;
+    border-radius: 10px;
+    margin-bottom:3vh;
+    margin-top:3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.avgSavings{
+    border: 10px  rgb(167, 255, 167) solid;
+    opacity: .7;
+    border-radius: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.part3and4{
+    background-image: url(images/part4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:-1vh;
+}
+.part4{
+    
+    font-size:20px ;
+    display: flex;
+    justify-content: center;
+    width:100vw;
+    padding-bottom: 5vh;
+}
+.whyUs{
+    width: 70vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 25px;
+
+}
+.icon{
+    height: 50px;
+    width:50px;
+}
+.partnerLogos{
+    height: 100px;
+}
+.logoandp{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    align-items: center;
+}
+.partnerLogos{
+    display: flex;
+    justify-content: space-around;
+}
+.stat{
+   background-color: rgb(201, 226, 250);
+   padding: 20px;
+   border-radius: 10px;
+   
+}
+.number{
+    background-color: rgb(167, 255, 167);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight:bold;
+ }
+
+.part5{
+    background-image: url(images/part5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quotes{
+   
+    width:50px;
+}
+/* Center the quote images */
+.testimonial1 .quotes,
+.testimonial2 .quotes,
+.testimonial3 .quotes {
+  display: block;
+  margin: 0 auto; /* This will center the image horizontally */
+  padding-top: 1vh;
+}
+
+
+.latestNewsLinks{
+    display: flex;
+    flex-direction: column;
+}
+.testimonialHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 5vh;
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vw;
+    
+}
+.testimonial1, .testimonial2, .testimonial3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.testimonials p{
+    margin-left: 1vw;
+    font-size: 20px;
+}
+.latestNewsLinks{
+    gap: 5vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    font-size: 20px;
+    padding-bottom: 3vh;
+}
+.latestNewsHeader{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:20px;
+    margin-top: 3vh;
+    font-size: 25px;
+    margin-right: 2vw;
+}
+
+@media (max-width: 900px) {
+    .inputs-container{
+    display: flex;
+    flex-direction: column;
+    }
+    .container, .form{
+        height:90vh;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .container{
+        width: 100vw;
+    }
+   .writtenInfo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   }
+   .text1{
+    font-size: 40px;
+    text-align: center;
+   }
+   .text2{
+    font-size: 30px;
+    
+   }
+   .text3{
+    font-size: 20px;
+    text-align: center;
+   }
+   .offer img{
+    width: 15vw;
+   }
+   label{
+    font-size:15px;
+   }
+   #attachment{
+    font-size:15px;
+   }
+  .part3, .part3left,.part3right{
+    display: flex;
+    flex-direction: column;
+   }
+   .solarPanel{
+    width: 100vw;
+    height: 40vh;
+   }
+   .part3Title{
+    text-align: center;
+   }
+   .testimonials{
+    margin:0px;
+   }
+   .footer{
+    font-size:20px;
+    justify-content: center;
+   }
+   body{
+    margin: 0px;
+   }
+   .reasons h3 {
+    text-align:center;
+   }
+   .whyUs h2 {
+    text-align:center;
+   }
+   .netProfit h2 {
+    text-align:center;
+   }
+}
