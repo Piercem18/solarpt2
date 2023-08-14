@@ -68,7 +68,6 @@ border-radius: 30px;
 }
 .leadToPortal{
     background-color:white;
-    border: 10px black;
     font-size: large;
     padding:20px;
     border-radius: 10px;
@@ -447,4 +446,14 @@ button:hover{
    .bill label{
     display: none;
    }
+   .leadToPortal{
+    background-color:white;
+    font-size: large;
+    padding:10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(21, 79, 126);
+    font-size:30px;
+    margin-top: 4vh;
+}
 }
