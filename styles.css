@@ -380,6 +380,12 @@ button:hover{
     .container{
         width: 100vw;
     }
+    .container button{
+        width:60vw;
+        margin-top:0px;
+        text-decoration: none;
+        font-size: 15px;
+    }
    .writtenInfo{
     width: 100vw;
     display: flex;
