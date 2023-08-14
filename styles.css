@@ -367,7 +367,7 @@ button:hover{
     flex-direction: column;
     }
     .container, .form{
-        height:90vh;
+        height:100vh;
         width: auto;
         margin: 0px;
         padding: 0px;
@@ -385,6 +385,8 @@ button:hover{
         margin-top:0px;
         text-decoration: none;
         font-size: 15px;
+        
+       height: 60px;
     }
    .writtenInfo{
     width: 100vw;
